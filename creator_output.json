@@ -1,70 +1,5 @@
 [
   {
-    "school_data": {
-      "currency": "GBP",
-      "year": 2026,
-      "school_id": "118817000000095567"
-    },
-    "costs": [
-      {
-        "type": "Supplemento",
-        "category": "Corso",
-        "name_ref": "General English",
-        "variant_ref": "High Season",
-        "frequency": "Periodica",
-        "week_range_start": 1,
-        "week_range_end": null,
-        "age_min": 14,
-        "age_max": 99,
-        "gross_amount": 30.0,
-        "commission_percent": null,
-        "course_id": "118817000001408026"
-      },
-      {
-        "type": "Fissa",
-        "category": "Corso",
-        "name_ref": "Registration Fee",
-        "variant_ref": null,
-        "frequency": "Fissa",
-        "week_range_start": null,
-        "week_range_end": null,
-        "age_min": 14,
-        "age_max": 99,
-        "gross_amount": 85.0,
-        "commission_percent": null,
-        "course_id": null
-      },
-      {
-        "type": "Fissa",
-        "category": "Corso",
-        "name_ref": "Accommodation Placement Fee",
-        "variant_ref": null,
-        "frequency": "Fissa",
-        "week_range_start": null,
-        "week_range_end": null,
-        "age_min": 14,
-        "age_max": 99,
-        "gross_amount": 50.0,
-        "commission_percent": null,
-        "course_id": null
-      },
-      {
-        "type": "Supplemento",
-        "category": "Corso",
-        "name_ref": "Christmas Supplement",
-        "variant_ref": null,
-        "frequency": "Fissa",
-        "week_range_start": null,
-        "week_range_end": null,
-        "age_min": 16,
-        "age_max": 99,
-        "gross_amount": 38.0,
-        "commission_percent": null,
-        "course_id": null
-      }
-    ]
-  },
-  {
     "_analysis": "The document contains multiple sections for locations including Brighton, Cambridge, Eastbourne, London Central, and London Highgate. Each location offers different course types with weekly pricing organized by duration categories. There's a focus on courses, accommodations, and additional fees like registration and seasonal supplements. Prices are primarily in GBP, indicative of British locations. Duration-based pricing follows sliding scale logic, requiring detailed price extraction per week range. Accommodation details vary by age and season.",
     "school_profile": {
       "organization_name": "St Giles International",
@@ -74,13 +9,7 @@
       "specific_start_dates": [
         {
           "course_name": "Basic Beginner",
-          "dates": [
-            "2026-01-05",
-            "2026-01-30",
-            "2026-03-30",
-            "2026-06-01",
-            "2026-10-05"
-          ]
+          "dates": ["2026-01-05", "2026-01-30", "2026-03-30", "2026-06-01", "2026-10-05"]
         }
       ],
       "school_id": null
@@ -265,11 +194,7 @@
       "specific_start_dates": [
         {
           "course_name": "Beginner Courses",
-          "dates": [
-            "2026-01-08",
-            "2026-02-05",
-            "2026-03-04"
-          ]
+          "dates": ["2026-01-08", "2026-02-05", "2026-03-04"]
         }
       ],
       "school_id": null
@@ -349,19 +274,11 @@
       "specific_start_dates": [
         {
           "course_name": "Cambridge B2 First Mastery",
-          "dates": [
-            "2026-03-23",
-            "2026-07-13",
-            "2026-10-02"
-          ]
+          "dates": ["2026-03-23", "2026-07-13", "2026-10-02"]
         },
         {
           "course_name": "Cambridge C1 Advanced Mastery",
-          "dates": [
-            "2026-03-23",
-            "2026-07-13",
-            "2026-10-02"
-          ]
+          "dates": ["2026-03-23", "2026-07-13", "2026-10-02"]
         }
       ],
       "school_id": null
@@ -444,17 +361,11 @@
       "specific_start_dates": [
         {
           "course_name": "Global Pathway: Academic English for University Success (GP)",
-          "dates": [
-            "2026-04-27",
-            "2026-09-14"
-          ]
+          "dates": ["2026-04-27", "2026-09-14"]
         },
         {
           "course_name": "Cambridge Exam Preparation",
-          "dates": [
-            "2026-01-05",
-            "2026-12-04"
-          ]
+          "dates": ["2026-01-05", "2026-12-04"]
         }
       ],
       "school_id": null
@@ -552,24 +463,11 @@
       "specific_start_dates": [
         {
           "course_name": "Cambridge Exam Preparation",
-          "dates": [
-            "2026-01-12",
-            "2026-02-16",
-            "2026-05-25",
-            "2026-07-06",
-            "2026-08-04",
-            "2026-11-16"
-          ]
+          "dates": ["2026-01-12", "2026-02-16", "2026-05-25", "2026-07-06", "2026-08-04", "2026-11-16"]
         },
         {
           "course_name": "Accelerated Cambridge Exam Preparation",
-          "dates": [
-            "2026-02-16",
-            "2026-05-25",
-            "2026-07-06",
-            "2026-08-04",
-            "2026-11-16"
-          ]
+          "dates": ["2026-02-16", "2026-05-25", "2026-07-06", "2026-08-04", "2026-11-16"]
         }
       ],
       "school_id": "118817000001365002"
@@ -682,11 +580,7 @@
       "specific_start_dates": [
         {
           "course_name": "General English Program",
-          "dates": [
-            "2025-01-06",
-            "2025-02-03",
-            "2025-03-02"
-          ]
+          "dates": ["2025-01-06", "2025-02-03", "2025-03-02"]
         }
       ],
       "school_id": null
@@ -789,15 +683,7 @@
       "specific_start_dates": [
         {
           "course_name": "Complete beginners",
-          "dates": [
-            "2026-05-01",
-            "2026-02-02",
-            "2026-03-02",
-            "2026-04-05",
-            "2026-05-03",
-            "2026-06-30",
-            "2026-10-04"
-          ]
+          "dates": ["2026-05-01", "2026-02-02", "2026-03-02", "2026-04-05", "2026-05-03", "2026-06-30", "2026-10-04"]
         }
       ],
       "school_id": null
@@ -1574,10 +1460,7 @@
       "specific_start_dates": [
         {
           "course_name": "Holiday Language Course",
-          "dates": [
-            "2026-06-29",
-            "2026-08-07"
-          ]
+          "dates": ["2026-06-29", "2026-08-07"]
         }
       ],
       "school_id": null
