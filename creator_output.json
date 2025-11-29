@@ -1,0 +1,2027 @@
+[
+  {
+    "school_data": {
+      "currency": "GBP",
+      "year": 2026,
+      "school_id": "118817000000095567"
+    },
+    "costs": [
+      {
+        "type": "Supplemento",
+        "category": "Corso",
+        "name_ref": "General English",
+        "variant_ref": "High Season",
+        "frequency": "Periodica",
+        "week_range_start": 1,
+        "week_range_end": null,
+        "age_min": 14,
+        "age_max": 99,
+        "gross_amount": 30.0,
+        "commission_percent": null,
+        "course_id": "118817000001408026"
+      },
+      {
+        "type": "Fissa",
+        "category": "Corso",
+        "name_ref": "Registration Fee",
+        "variant_ref": null,
+        "frequency": "Fissa",
+        "week_range_start": null,
+        "week_range_end": null,
+        "age_min": 14,
+        "age_max": 99,
+        "gross_amount": 85.0,
+        "commission_percent": null,
+        "course_id": null
+      },
+      {
+        "type": "Fissa",
+        "category": "Corso",
+        "name_ref": "Accommodation Placement Fee",
+        "variant_ref": null,
+        "frequency": "Fissa",
+        "week_range_start": null,
+        "week_range_end": null,
+        "age_min": 14,
+        "age_max": 99,
+        "gross_amount": 50.0,
+        "commission_percent": null,
+        "course_id": null
+      },
+      {
+        "type": "Supplemento",
+        "category": "Corso",
+        "name_ref": "Christmas Supplement",
+        "variant_ref": null,
+        "frequency": "Fissa",
+        "week_range_start": null,
+        "week_range_end": null,
+        "age_min": 16,
+        "age_max": 99,
+        "gross_amount": 38.0,
+        "commission_percent": null,
+        "course_id": null
+      }
+    ]
+  },
+  {
+    "_analysis": "The document contains multiple sections for locations including Brighton, Cambridge, Eastbourne, London Central, and London Highgate. Each location offers different course types with weekly pricing organized by duration categories. There's a focus on courses, accommodations, and additional fees like registration and seasonal supplements. Prices are primarily in GBP, indicative of British locations. Duration-based pricing follows sliding scale logic, requiring detailed price extraction per week range. Accommodation details vary by age and season.",
+    "school_profile": {
+      "organization_name": "St Giles International",
+      "location": "Multiple (Brighton, Cambridge, Eastbourne, London Central, London Highgate)",
+      "currency": "GBP",
+      "year": 2026,
+      "specific_start_dates": [
+        {
+          "course_name": "Basic Beginner",
+          "dates": [
+            "2026-01-05",
+            "2026-01-30",
+            "2026-03-30",
+            "2026-06-01",
+            "2026-10-05"
+          ]
+        }
+      ],
+      "school_id": null
+    },
+    "costs": [
+      {
+        "category": "Corso",
+        "name_ref": "General English Course (A1+)",
+        "variant_ref": "Intensive 28 lessons per week",
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": 3,
+        "gross_amount": 537,
+        "age_min": 16,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "High season from 22 Jun to 21 Aug",
+        "notes": "Available every Monday except public holidays",
+        "course_id": null
+      },
+      {
+        "category": "Alloggio",
+        "name_ref": "Homestay",
+        "variant_ref": "Standard Room with shared bathroom",
+        "accommodation_details": {
+          "room_type": "Single",
+          "bathroom_type": "Shared",
+          "board_basis": "HB"
+        },
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": null,
+        "gross_amount": 274,
+        "age_min": 18,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "High season from 21 Jun to 23 Aug",
+        "notes": "Prices vary for Twin rooms and by student age"
+      }
+    ]
+  },
+  {
+    "_analysis": "The document is organized by locations such as Barcelona, Madrid, Malaga, and Buenos Aires. Each location has similar structures with sections for courses and accommodations. Prices are in Euros and vary based on weeks booked, especially for courses. Sliding scale logic is applied for week ranges, and accommodation prices are provided per week with extra night options. Fees and conditions are also detailed.",
+    "school_profile": {
+      "organization_name": "Expanish",
+      "location": "Barcelona",
+      "currency": "EUR",
+      "year": 2026,
+      "specific_start_dates": [],
+      "school_id": null
+    },
+    "costs": [
+      {
+        "category": "Corso",
+        "name_ref": "INTENSIVE 20 lessons/week",
+        "variant_ref": null,
+        "accommodation_details": {
+          "room_type": null,
+          "bathroom_type": null,
+          "board_basis": null
+        },
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": 11,
+        "gross_amount": 240,
+        "age_min": 16,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": null,
+        "course_id": null
+      },
+      {
+        "category": "Corso",
+        "name_ref": "INTENSIVE 20 lessons/week",
+        "variant_ref": null,
+        "accommodation_details": {
+          "room_type": null,
+          "bathroom_type": null,
+          "board_basis": null
+        },
+        "frequency": "Settimanale",
+        "week_range_start": 12,
+        "week_range_end": 21,
+        "gross_amount": 216,
+        "age_min": 16,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": null,
+        "course_id": null
+      },
+      {
+        "category": "Corso",
+        "name_ref": "INTENSIVE 20 lessons/week",
+        "variant_ref": null,
+        "accommodation_details": {
+          "room_type": null,
+          "bathroom_type": null,
+          "board_basis": null
+        },
+        "frequency": "Settimanale",
+        "week_range_start": 22,
+        "week_range_end": 39,
+        "gross_amount": 180,
+        "age_min": 16,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": null,
+        "course_id": null
+      },
+      {
+        "category": "Corso",
+        "name_ref": "INTENSIVE 20 lessons/week",
+        "variant_ref": null,
+        "accommodation_details": {
+          "room_type": null,
+          "bathroom_type": null,
+          "board_basis": null
+        },
+        "frequency": "Settimanale",
+        "week_range_start": 40,
+        "week_range_end": null,
+        "gross_amount": 168,
+        "age_min": 16,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": null,
+        "course_id": null
+      },
+      {
+        "category": "Alloggio",
+        "name_ref": "Standard Homestays",
+        "variant_ref": "Single Room",
+        "accommodation_details": {
+          "room_type": "Single",
+          "bathroom_type": "Shared",
+          "board_basis": "HB"
+        },
+        "frequency": "Settimanale",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 343,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Extra night cost: \u007f\u0006457",
+        "course_id": null
+      },
+      {
+        "category": "Alloggio",
+        "name_ref": "Comfort Homestays",
+        "variant_ref": "Single Room",
+        "accommodation_details": {
+          "room_type": "Single",
+          "bathroom_type": "Private",
+          "board_basis": "HB"
+        },
+        "frequency": "Settimanale",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 393,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Extra night cost: \u007f\u0006466",
+        "course_id": null
+      }
+    ]
+  },
+  {
+    "_analysis": "The document comprises multiple sections with pricing structures based on different durations and services. The prices are given in EUR and reflect various locations across Germany.",
+    "school_profile": {
+      "organization_name": "Carl Duisberg",
+      "location": "Germany, Multiple Locations",
+      "currency": "EUR",
+      "year": 2026,
+      "specific_start_dates": [
+        {
+          "course_name": "Beginner Courses",
+          "dates": [
+            "2026-01-08",
+            "2026-02-05",
+            "2026-03-04"
+          ]
+        }
+      ],
+      "school_id": null
+    },
+    "costs": [
+      {
+        "category": "Corso",
+        "name_ref": "German Intensive Course Standard",
+        "variant_ref": "20 TU per week",
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": 4,
+        "gross_amount": 100.0,
+        "age_min": 16,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Face-to-face courses",
+        "course_id": null
+      },
+      {
+        "category": "Corso",
+        "name_ref": "German Intensive Course Premium",
+        "variant_ref": "24+4 TU per week",
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": 4,
+        "gross_amount": 240.0,
+        "age_min": 16,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Includes 4 TUs in small groups",
+        "course_id": null
+      },
+      {
+        "category": "Alloggio",
+        "name_ref": "Homestay Family",
+        "variant_ref": "Single room without board",
+        "accommodation_details": {
+          "room_type": "Single",
+          "bathroom_type": "Shared",
+          "board_basis": "Null"
+        },
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": 4,
+        "gross_amount": 190.0,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "High-Season Surcharge applies (29 June\u201329 August 2026)",
+        "notes": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "University Placement",
+        "variant_ref": "Preparation Fee",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 1000.0,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "school_profile": {
+      "organization_name": "ILSC Language Schools",
+      "location": "Various",
+      "currency": "Varies by location",
+      "year": 2026,
+      "specific_start_dates": [
+        {
+          "course_name": "Cambridge B2 First Mastery",
+          "dates": [
+            "2026-03-23",
+            "2026-07-13",
+            "2026-10-02"
+          ]
+        },
+        {
+          "course_name": "Cambridge C1 Advanced Mastery",
+          "dates": [
+            "2026-03-23",
+            "2026-07-13",
+            "2026-10-02"
+          ]
+        }
+      ],
+      "school_id": null
+    },
+    "costs": [
+      {
+        "category": "Corso",
+        "name_ref": "General English Program",
+        "variant_ref": "FT AM",
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": 11,
+        "gross_amount": 460,
+        "age_min": 0,
+        "age_max": 0,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "Tuition fees per week; full-time morning schedule.",
+        "course_id": null
+      },
+      {
+        "category": "Alloggio",
+        "name_ref": "Homestay",
+        "variant_ref": "Full Board",
+        "accommodation_details": {
+          "room_type": "Single",
+          "bathroom_type": "Shared",
+          "board_basis": "FB"
+        },
+        "frequency": "Settimanale",
+        "week_range_start": 0,
+        "week_range_end": null,
+        "gross_amount": 350,
+        "age_min": 13,
+        "age_max": 0,
+        "commission_percent": null,
+        "seasonality_notes": "High season: May 31 - Aug 31",
+        "notes": "Price varies with season and age group.",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Registration Fee",
+        "variant_ref": null,
+        "frequency": "Una Tantum",
+        "week_range_start": 0,
+        "week_range_end": null,
+        "gross_amount": 250,
+        "age_min": 0,
+        "age_max": 0,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "Non-refundable, required for all enrollments.",
+        "course_id": null
+      },
+      {
+        "category": "Supplemento",
+        "name_ref": "Unaccompanied Minor Fee",
+        "variant_ref": null,
+        "frequency": "Una Tantum",
+        "week_range_start": 0,
+        "week_range_end": null,
+        "gross_amount": 75,
+        "age_min": 0,
+        "age_max": 0,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "Applied per service, if required.",
+        "course_id": null
+      }
+    ]
+  },
+  {
+    "_analysis": "The document contains structured tables for course and accommodation pricing for multiple locations. The currency is primarily USD for USA locations and CAD for Vancouver. Courses have different pricing scales based on the number of weeks. Accommodation has seasonal supplements and various room/meal types.",
+    "school_profile": {
+      "organization_name": "College of English Language",
+      "location": "San Diego, Vancouver, Los Angeles",
+      "currency": "USD for USA, CAD for Vancouver",
+      "year": 2026,
+      "specific_start_dates": [
+        {
+          "course_name": "Global Pathway: Academic English for University Success (GP)",
+          "dates": [
+            "2026-04-27",
+            "2026-09-14"
+          ]
+        },
+        {
+          "course_name": "Cambridge Exam Preparation",
+          "dates": [
+            "2026-01-05",
+            "2026-12-04"
+          ]
+        }
+      ],
+      "school_id": null
+    },
+    "costs": [
+      {
+        "category": "Corso",
+        "name_ref": "General English",
+        "variant_ref": "GE20",
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": 6,
+        "gross_amount": 370,
+        "age_min": 16,
+        "age_max": 99,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Available in San Diego and Vancouver",
+        "course_id": "118817000000400228"
+      },
+      {
+        "category": "Accommodation",
+        "name_ref": "Homestay",
+        "variant_ref": "Breakfast",
+        "accommodation_details": {
+          "room_type": "Double",
+          "bathroom_type": "Shared",
+          "board_basis": "BB"
+        },
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": 4,
+        "gross_amount": 330,
+        "age_min": 16,
+        "age_max": 99,
+        "commission_percent": null,
+        "seasonality_notes": "High Season: May 30 - Sep 26 2026",
+        "notes": "High season supplement: $20/week",
+        "course_id": null
+      },
+      {
+        "category": "Transfer",
+        "name_ref": "San Diego Airport (SAN)",
+        "variant_ref": "Arrival & Departure",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 300,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Includes arrival and departure",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Registration Fee",
+        "variant_ref": null,
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 150,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Needs to be paid once per booking",
+        "course_id": null
+      },
+      {
+        "category": "Supplemento",
+        "name_ref": "High Season",
+        "variant_ref": null,
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": null,
+        "gross_amount": 25,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "High Season: Jun 29 - Aug 28 2026",
+        "notes": "Applies to courses under 12 weeks",
+        "course_id": null
+      }
+    ]
+  },
+  {
+    "_analysis": "The document provides detailed pricing for language courses, accommodation, and additional fees segmented by programme and duration. Prices use EUR, with fees offered per week, course, or specific duration. The structure includes tables indicating weeks, course types, and supplementary details with seasonality notes.",
+    "school_profile": {
+      "organization_name": "Cork English College",
+      "location": "Cork",
+      "currency": "EUR",
+      "year": 2026,
+      "specific_start_dates": [
+        {
+          "course_name": "Cambridge Exam Preparation",
+          "dates": [
+            "2026-01-12",
+            "2026-02-16",
+            "2026-05-25",
+            "2026-07-06",
+            "2026-08-04",
+            "2026-11-16"
+          ]
+        },
+        {
+          "course_name": "Accelerated Cambridge Exam Preparation",
+          "dates": [
+            "2026-02-16",
+            "2026-05-25",
+            "2026-07-06",
+            "2026-08-04",
+            "2026-11-16"
+          ]
+        }
+      ],
+      "school_id": "118817000001365002"
+    },
+    "costs": [
+      {
+        "category": "Corso",
+        "name_ref": "General English",
+        "variant_ref": "20 hours per week",
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": 4,
+        "gross_amount": 295.0,
+        "age_min": 16,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "",
+        "course_id": "118817000001365002"
+      },
+      {
+        "category": "Corso",
+        "name_ref": "General English",
+        "variant_ref": "20 hours per week",
+        "frequency": "Settimanale",
+        "week_range_start": 5,
+        "week_range_end": 11,
+        "gross_amount": 260.0,
+        "age_min": 16,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "",
+        "course_id": "118817000001365002"
+      },
+      {
+        "category": "Corso",
+        "name_ref": "General English",
+        "variant_ref": "26 hours per week",
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": 4,
+        "gross_amount": 360.0,
+        "age_min": 16,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "",
+        "course_id": "118817000001365002"
+      },
+      {
+        "category": "Alloggio",
+        "name_ref": "Standard Host Family",
+        "variant_ref": "Single Room, Half Board",
+        "accommodation_details": {
+          "room_type": "Single",
+          "bathroom_type": "Shared",
+          "board_basis": "HB"
+        },
+        "frequency": "Settimanale",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 280.0,
+        "age_min": 16,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "Summer Supplement: 31 May - 30 Aug",
+        "notes": "",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Registration Fee",
+        "variant_ref": "",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 75.0,
+        "age_min": 16,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Course Materials",
+        "variant_ref": "",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 75.0,
+        "age_min": 16,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "",
+        "course_id": null
+      }
+    ]
+  },
+  {
+    "_analysis": "The document contains detailed pricing lists split by campus and program type. Pricing for standard language courses and specialized programs is organized by duration and start dates. Accommodation options are also detailed, with seasonal variations and age-based rates. The predominant currency is CAD.",
+    "school_profile": {
+      "organization_name": "ILSC & Greystone College",
+      "location": "Canada - Montr\u001eal | Toronto | Vancouver",
+      "currency": "CAD",
+      "year": 2025,
+      "specific_start_dates": [
+        {
+          "course_name": "General English Program",
+          "dates": [
+            "2025-01-06",
+            "2025-02-03",
+            "2025-03-02"
+          ]
+        }
+      ],
+      "school_id": null
+    },
+    "costs": [
+      {
+        "category": "Corso",
+        "name_ref": "Full-Time Intensive",
+        "variant_ref": "30 lessons/week",
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": 11,
+        "gross_amount": 340.0,
+        "age_min": 16,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Pricing for Vancouver & Toronto",
+        "course_id": null
+      },
+      {
+        "category": "Corso",
+        "name_ref": "Full-Time Morning",
+        "variant_ref": "24 lessons/week",
+        "frequency": "Settimanale",
+        "week_range_start": 12,
+        "week_range_end": 23,
+        "gross_amount": 300.0,
+        "age_min": 16,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Pricing for Vancouver & Toronto",
+        "course_id": null
+      },
+      {
+        "category": "Alloggio",
+        "name_ref": "Roomstay",
+        "variant_ref": "No meals",
+        "accommodation_details": {
+          "room_type": "Null",
+          "bathroom_type": "Shared",
+          "board_basis": "Null"
+        },
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": null,
+        "gross_amount": 300.0,
+        "age_min": 18,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "High Season: Jun 1 - Sep 1",
+        "notes": "Low season rate",
+        "course_id": null
+      },
+      {
+        "category": "Alloggio",
+        "name_ref": "Single Room",
+        "variant_ref": "Apartment, Shared bathroom",
+        "accommodation_details": {
+          "room_type": "Single",
+          "bathroom_type": "Shared",
+          "board_basis": "Null"
+        },
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": null,
+        "gross_amount": 455.0,
+        "age_min": 18,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "High Season: Jun 1 - Sep 1",
+        "notes": "Montr\u001eal cost details",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Registration Fee",
+        "variant_ref": "Non-refundable",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 200.0,
+        "age_min": 16,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "",
+        "course_id": null
+      }
+    ]
+  },
+  {
+    "_analysis": "The document contains detailed pricing information for language courses, accommodations, and associated services at the Centre International d'Antibes for 2026. The courses, accommodations, and packages are segmented into categories with prices varying by duration, seasons, and type. Prices are given per week or as one-time fees, and the currency is in EUR.",
+    "school_profile": {
+      "organization_name": "Centre International d'Antibes",
+      "location": "Antibes, France",
+      "currency": "EUR",
+      "year": 2026,
+      "specific_start_dates": [
+        {
+          "course_name": "Complete beginners",
+          "dates": [
+            "2026-05-01",
+            "2026-02-02",
+            "2026-03-02",
+            "2026-04-05",
+            "2026-05-03",
+            "2026-06-30",
+            "2026-10-04"
+          ]
+        }
+      ],
+      "school_id": null
+    },
+    "costs": [
+      {
+        "category": "Corso",
+        "name_ref": "Standard",
+        "variant_ref": "20 morning lessons",
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": 4,
+        "gross_amount": 335,
+        "age_min": 16,
+        "age_max": null,
+        "seasonality_notes": null,
+        "notes": "x45' per week from Monday to Friday, Maximum class size: 12",
+        "course_id": "118817000001427002"
+      },
+      {
+        "category": "Corso",
+        "name_ref": "Standard",
+        "variant_ref": "20 morning lessons",
+        "frequency": "Settimanale",
+        "week_range_start": 5,
+        "week_range_end": null,
+        "gross_amount": 260,
+        "age_min": 16,
+        "age_max": null,
+        "seasonality_notes": null,
+        "notes": "x45' per week from Monday to Friday, Maximum class size: 12",
+        "course_id": "118817000001427002"
+      },
+      {
+        "category": "Corso",
+        "name_ref": "Intensive",
+        "variant_ref": "20 morning + 10 afternoon lessons",
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": 4,
+        "gross_amount": 500,
+        "age_min": 16,
+        "age_max": null,
+        "seasonality_notes": null,
+        "notes": "x45' per week, Morning: Mon-Fri, Afternoon: Tue-Fri. Maximum class size: Morning 12, Afternoon 6",
+        "course_id": null
+      },
+      {
+        "category": "Corso",
+        "name_ref": "Intensive",
+        "variant_ref": "20 morning + 10 afternoon lessons",
+        "frequency": "Settimanale",
+        "week_range_start": 5,
+        "week_range_end": null,
+        "gross_amount": 375,
+        "age_min": 16,
+        "age_max": null,
+        "seasonality_notes": null,
+        "notes": "x45' per week, Morning: Mon-Fri, Afternoon: Tue-Fri. Maximum class size: Morning 12, Afternoon 6",
+        "course_id": null
+      },
+      {
+        "category": "Alloggio",
+        "name_ref": "School Residence: One-room apartment",
+        "variant_ref": "Studio single",
+        "accommodation_details": {
+          "room_type": "Single",
+          "bathroom_type": "Private",
+          "board_basis": "SC"
+        },
+        "frequency": "Settimanale",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 385,
+        "age_min": 18,
+        "age_max": null,
+        "seasonality_notes": "Low season: 04.01 - 07.03, 01.11 - 19.12",
+        "notes": "Extra day: 55 \u20ac, School residence 500m from the beach",
+        "course_id": null
+      },
+      {
+        "category": "Alloggio",
+        "name_ref": "Host Family",
+        "variant_ref": "Breakfast included, Single room",
+        "accommodation_details": {
+          "room_type": "Single",
+          "bathroom_type": "Shared",
+          "board_basis": "BB"
+        },
+        "frequency": "Settimanale",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 370,
+        "age_min": 16,
+        "age_max": null,
+        "seasonality_notes": "Year-round",
+        "notes": "Extra day: 53 \u20ac",
+        "course_id": null
+      }
+    ]
+  },
+  {
+    "_analysis": "The document is structured with tables listing fees for semesters and full-year durations. There are sections for student fees and accommodation fees. The currency is CAD, and prices are mostly listed as semester and full-year totals.",
+    "school_profile": {
+      "organization_name": "Golden Hills International",
+      "location": "Canada",
+      "currency": "CAD",
+      "year": 2026,
+      "specific_start_dates": [],
+      "school_id": null
+    },
+    "costs": [
+      {
+        "category": "Fee",
+        "name_ref": "Registration",
+        "variant_ref": "",
+        "accommodation_details": {
+          "room_type": null,
+          "bathroom_type": null,
+          "board_basis": null
+        },
+        "frequency": "Semester",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 260.0,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Base Tuition",
+        "variant_ref": "",
+        "accommodation_details": {
+          "room_type": null,
+          "bathroom_type": null,
+          "board_basis": null
+        },
+        "frequency": "Semester",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 6995.0,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Base Tuition",
+        "variant_ref": "",
+        "accommodation_details": {
+          "room_type": null,
+          "bathroom_type": null,
+          "board_basis": null
+        },
+        "frequency": "Full Year",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 13390.0,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Student Services",
+        "variant_ref": "",
+        "accommodation_details": {
+          "room_type": null,
+          "bathroom_type": null,
+          "board_basis": null
+        },
+        "frequency": "Semester",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 1275.0,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Student Services",
+        "variant_ref": "",
+        "accommodation_details": {
+          "room_type": null,
+          "bathroom_type": null,
+          "board_basis": null
+        },
+        "frequency": "Full Year",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 1275.0,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Medical Insurance",
+        "variant_ref": "",
+        "accommodation_details": {
+          "room_type": null,
+          "bathroom_type": null,
+          "board_basis": null
+        },
+        "frequency": "Semester",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 400.0,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "If a transfer of accommodation is requested/required, additional fees may be applied",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Medical Insurance",
+        "variant_ref": "",
+        "accommodation_details": {
+          "room_type": null,
+          "bathroom_type": null,
+          "board_basis": null
+        },
+        "frequency": "Full Year",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 800.0,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "If a transfer of accommodation is requested/required, additional fees may be applied",
+        "course_id": null
+      },
+      {
+        "category": "Alloggio",
+        "name_ref": "Dormitory (Drumheller, Strathmore)",
+        "variant_ref": "**Three Hills (PCA dormitory)",
+        "accommodation_details": {
+          "room_type": null,
+          "bathroom_type": null,
+          "board_basis": null
+        },
+        "frequency": "Semester",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 8295.0,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "**Students attending Three Hills School can be accommodated at the Prairie Christian Society's dormitory. An interview for dormitory accommodation will be conducted by the dorm Deans.",
+        "course_id": null
+      },
+      {
+        "category": "Alloggio",
+        "name_ref": "Dormitory (Drumheller, Strathmore)",
+        "variant_ref": "**Three Hills (PCA dormitory)",
+        "accommodation_details": {
+          "room_type": null,
+          "bathroom_type": null,
+          "board_basis": null
+        },
+        "frequency": "Full Year",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 16590.0,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "**Students attending Three Hills School can be accommodated at the Prairie Christian Society's dormitory. An interview for dormitory accommodation will be conducted by the dorm Deans.",
+        "course_id": null
+      },
+      {
+        "category": "Alloggio",
+        "name_ref": "Homestay",
+        "variant_ref": "",
+        "accommodation_details": {
+          "room_type": null,
+          "bathroom_type": null,
+          "board_basis": null
+        },
+        "frequency": "Semester",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 6275.0,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "",
+        "course_id": null
+      },
+      {
+        "category": "Alloggio",
+        "name_ref": "Homestay",
+        "variant_ref": "",
+        "accommodation_details": {
+          "room_type": null,
+          "bathroom_type": null,
+          "board_basis": null
+        },
+        "frequency": "Full Year",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 13450.0,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Usage Fee (non-refundable)",
+        "variant_ref": "",
+        "accommodation_details": {
+          "room_type": null,
+          "bathroom_type": null,
+          "board_basis": null
+        },
+        "frequency": "Semester",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 250.0,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "",
+        "course_id": null
+      }
+    ]
+  },
+  {
+    "_analysis": "The document outlines prices for language courses and accommodations for adults and juniors in Berlin and Munich. It uses sliding scale pricing based on weeks and specific supplements for short stays and high season. Prices are in EUR with various categories including courses, accommodations, and additional fees.",
+    "school_profile": {
+      "organization_name": "GLS Language School Berlin",
+      "location": "Berlin",
+      "currency": "EUR",
+      "year": 2026,
+      "specific_start_dates": [],
+      "school_id": null
+    },
+    "costs": [
+      {
+        "category": "Corso",
+        "name_ref": "General German",
+        "variant_ref": "Intensive",
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": 9,
+        "gross_amount": 200.0,
+        "age_min": 18,
+        "age_max": 99,
+        "commission_percent": null,
+        "seasonality_notes": "Summer surcharge: 30\u20ac/week between JUN 29 - JUL 31, 2026",
+        "notes": "",
+        "course_id": null
+      },
+      {
+        "category": "Corso",
+        "name_ref": "General German",
+        "variant_ref": "Intensive",
+        "frequency": "Settimanale",
+        "week_range_start": 10,
+        "week_range_end": null,
+        "gross_amount": 170.0,
+        "age_min": 18,
+        "age_max": 99,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "",
+        "course_id": null
+      },
+      {
+        "category": "Alloggio",
+        "name_ref": "Apartments",
+        "variant_ref": "Studios",
+        "accommodation_details": {
+          "room_type": "Single",
+          "bathroom_type": "Private",
+          "board_basis": "Null"
+        },
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": 5,
+        "gross_amount": 750.0,
+        "age_min": 18,
+        "age_max": 99,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "Refundable deposit of 100\u20ac - 200\u20ac"
+      },
+      {
+        "category": "Alloggio",
+        "name_ref": "Homestay & Flatshare with Germans",
+        "variant_ref": "Self catering",
+        "accommodation_details": {
+          "room_type": "Single",
+          "bathroom_type": "Shared",
+          "board_basis": "SC"
+        },
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": 5,
+        "gross_amount": 300.0,
+        "age_min": 18,
+        "age_max": 99,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "Max 35 min to GLS"
+      }
+    ]
+  },
+  {
+    "_analysis": "Document structured with distinct categories such as application fees, tuition fees, and health insurance for both one school year and one semester. Fees differ for secondary and elementary levels. Non-refundable fees and optional fees are noted.",
+    "school_profile": {
+      "organization_name": "Burnaby School District",
+      "location": "Greater Vancouver, BC, Canada",
+      "currency": "CAD",
+      "year": 2026,
+      "specific_start_dates": [],
+      "school_id": null
+    },
+    "costs": [
+      {
+        "category": "Fee",
+        "name_ref": "Application Fee",
+        "variant_ref": "Secondary",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 250,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "Non-refundable",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Application Fee",
+        "variant_ref": "Elementary",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 250,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "Non-refundable",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Tuition Fee",
+        "variant_ref": "Secondary",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 17375,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Tuition Fee",
+        "variant_ref": "Elementary",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 17375,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Health Insurance (10 months)",
+        "variant_ref": "",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 750,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Health Insurance (12 months)",
+        "variant_ref": "",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 900,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "*12 months = July to June if returning, or February to January students.",
+        "notes": "",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Application Fee",
+        "variant_ref": "Secondary (One Semester)",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 250,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "Non-refundable",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Application Fee",
+        "variant_ref": "Elementary (One Semester)",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 250,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "Non-refundable",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Tuition Fee",
+        "variant_ref": "Secondary (One Semester)",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 8688,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Tuition Fee",
+        "variant_ref": "Elementary (One Semester)",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 8688,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Health Insurance",
+        "variant_ref": "One Semester",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 375,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Renewal Fee",
+        "variant_ref": "Secondary",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 250,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "Non-refundable",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Renewal Fee",
+        "variant_ref": "Elementary",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 250,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "Non-refundable",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Apostille (Legalization) Fee",
+        "variant_ref": "",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 100,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "Range: 100 - 300 CAD",
+        "course_id": null
+      }
+    ]
+  },
+  {
+    "_analysis": "The document contains pricing for different age groups and services, such as courses, accommodation, and additional fees, with specific seasonal adjustments. Pricing is per week/person and uses a sliding scale for courses and accommodation based on the length of the stay. Multiple currencies are not used, and the predominant currency is EUR for Malta and Gozo.",
+    "school_profile": {
+      "organization_name": "BELS",
+      "location": "Malta",
+      "currency": "EUR",
+      "year": 2026,
+      "specific_start_dates": [],
+      "school_id": null
+    },
+    "costs": [
+      {
+        "category": "Fee",
+        "name_ref": "Registration Fee",
+        "variant_ref": "Adults",
+        "frequency": "Una Tantum",
+        "week_range_start": 1,
+        "week_range_end": 1,
+        "gross_amount": 55.0,
+        "age_min": 18,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "Compulsory fee",
+        "course_id": null
+      },
+      {
+        "category": "Supplemento",
+        "name_ref": "Eco Tax",
+        "variant_ref": "Adults",
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": null,
+        "gross_amount": 3.5,
+        "age_min": 18,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "Max 5 EUR",
+        "course_id": null
+      },
+      {
+        "category": "Corso",
+        "name_ref": "General English Standard",
+        "variant_ref": "20 Lessons",
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": 7,
+        "gross_amount": 250.0,
+        "age_min": 18,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "Low season discount applies.",
+        "notes": "",
+        "course_id": "118817000000195559"
+      },
+      {
+        "category": "Corso",
+        "name_ref": "General English Standard",
+        "variant_ref": "30 Lessons",
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": 7,
+        "gross_amount": 345.0,
+        "age_min": 18,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "",
+        "course_id": "118817000000195559"
+      },
+      {
+        "category": "Alloggio",
+        "name_ref": "Comfort Basic Residence",
+        "variant_ref": "Twin",
+        "accommodation_details": {
+          "room_type": "Twin",
+          "bathroom_type": "Null",
+          "board_basis": "Null"
+        },
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": 7,
+        "gross_amount": 165.0,
+        "age_min": 18,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "",
+        "course_id": null
+      },
+      {
+        "category": "Supplemento",
+        "name_ref": "High Season",
+        "variant_ref": "Courses and Accommodation",
+        "frequency": "Settimanale",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 30.0,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "Applies from 28 Jun to 29 Aug.",
+        "notes": "",
+        "course_id": null
+      }
+    ]
+  },
+  {
+    "_analysis": "The document is organized into categories for Courses, Accommodation, Exam Costs, Books, Taxi Transfers, and Insurance. It uses GBP, with AUD for the OET exam. Course prices have a sliding scale based on weeks. Accommodation and additional fees are clear, with some price variations.",
+    "school_profile": {
+      "organization_name": "CELT Centre for English Language Teaching",
+      "location": "Cardiff",
+      "currency": "GBP",
+      "year": 2026,
+      "specific_start_dates": [
+        {
+          "course_name": "Holiday Language Course",
+          "dates": [
+            "2026-06-29",
+            "2026-08-07"
+          ]
+        }
+      ],
+      "school_id": null
+    },
+    "costs": [
+      {
+        "category": "Corso",
+        "name_ref": "General English",
+        "variant_ref": "Standard",
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": 6,
+        "gross_amount": 260.0,
+        "age_min": 18,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "15 hours per week",
+        "course_id": "118817000000196919"
+      },
+      {
+        "category": "Corso",
+        "name_ref": "General English",
+        "variant_ref": "Standard",
+        "frequency": "Settimanale",
+        "week_range_start": 7,
+        "week_range_end": 12,
+        "gross_amount": 250.0,
+        "age_min": 18,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "15 hours per week",
+        "course_id": "118817000000196919"
+      },
+      {
+        "category": "Corso",
+        "name_ref": "General English",
+        "variant_ref": "Standard",
+        "frequency": "Settimanale",
+        "week_range_start": 13,
+        "week_range_end": 24,
+        "gross_amount": 240.0,
+        "age_min": 18,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "15 hours per week",
+        "course_id": "118817000000196919"
+      },
+      {
+        "category": "Corso",
+        "name_ref": "General English",
+        "variant_ref": "Standard",
+        "frequency": "Settimanale",
+        "week_range_start": 25,
+        "week_range_end": null,
+        "gross_amount": 230.0,
+        "age_min": 18,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "15 hours per week",
+        "course_id": "118817000000196919"
+      },
+      {
+        "category": "Corso",
+        "name_ref": "General English",
+        "variant_ref": "Intensive",
+        "frequency": "Settimanale",
+        "week_range_start": 1,
+        "week_range_end": 6,
+        "gross_amount": 345.0,
+        "age_min": 18,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "23 hours per week",
+        "course_id": null
+      },
+      {
+        "category": "Corso",
+        "name_ref": "General English",
+        "variant_ref": "Intensive",
+        "frequency": "Settimanale",
+        "week_range_start": 7,
+        "week_range_end": 12,
+        "gross_amount": 335.0,
+        "age_min": 18,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "23 hours per week",
+        "course_id": null
+      },
+      {
+        "category": "Corso",
+        "name_ref": "General English",
+        "variant_ref": "Intensive",
+        "frequency": "Settimanale",
+        "week_range_start": 13,
+        "week_range_end": 24,
+        "gross_amount": 325.0,
+        "age_min": 18,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "23 hours per week",
+        "course_id": null
+      },
+      {
+        "category": "Corso",
+        "name_ref": "General English",
+        "variant_ref": "Intensive",
+        "frequency": "Settimanale",
+        "week_range_start": 25,
+        "week_range_end": null,
+        "gross_amount": 315.0,
+        "age_min": 18,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "23 hours per week",
+        "course_id": null
+      },
+      {
+        "category": "Alloggio",
+        "name_ref": "Homestay",
+        "variant_ref": "Adults",
+        "accommodation_details": {
+          "room_type": "Single",
+          "bathroom_type": "Null",
+          "board_basis": "BB"
+        },
+        "frequency": "Settimanale",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 165.0,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "Single room on bed & breakfast basis"
+      },
+      {
+        "category": "Alloggio",
+        "name_ref": "Homestay",
+        "variant_ref": "Adults",
+        "accommodation_details": {
+          "room_type": "Single",
+          "bathroom_type": "Null",
+          "board_basis": "HB"
+        },
+        "frequency": "Settimanale",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 195.0,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "Single room on half-board basis"
+      },
+      {
+        "category": "Alloggio",
+        "name_ref": "Homestay",
+        "variant_ref": "Teens",
+        "accommodation_details": {
+          "room_type": "Shared",
+          "bathroom_type": "Null",
+          "board_basis": "FB"
+        },
+        "frequency": "Settimanale",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 195.0,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": "Shared room on full-board basis with packed lunch"
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Registration Fee",
+        "variant_ref": "",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 50.0,
+        "age_min": null,
+        "age_max": null,
+        "commission_percent": null,
+        "seasonality_notes": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "_analysis": "The document outlines homestay fees for BSD High School students requiring a custodian. Fees are presented for both 10-month and 5-month placements, including optional services with specific refundability conditions.",
+    "school_profile": {
+      "organization_name": "Langara",
+      "location": null,
+      "currency": "CAD",
+      "year": 2026,
+      "specific_start_dates": [],
+      "school_id": null
+    },
+    "costs": [
+      {
+        "category": "Fee",
+        "name_ref": "Placement Fee",
+        "variant_ref": "10-month",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 580.0,
+        "age_min": 0,
+        "age_max": 18,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Non-refundable",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Custodian Fee",
+        "variant_ref": "10-month",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 550.0,
+        "age_min": 0,
+        "age_max": 18,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Non-refundable",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Annual Administrative Fee",
+        "variant_ref": "10-month",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 475.0,
+        "age_min": 0,
+        "age_max": 18,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Refundable prior to arrival",
+        "course_id": null
+      },
+      {
+        "category": "Accommodation",
+        "name_ref": "Homestay Fee",
+        "variant_ref": "10-month",
+        "accommodation_details": {
+          "room_type": null,
+          "bathroom_type": null,
+          "board_basis": null
+        },
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 14750.0,
+        "age_min": 0,
+        "age_max": 18,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Refundable, except for first month fee",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Airport Pick-up Fee",
+        "variant_ref": "10-month",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 160.0,
+        "age_min": 0,
+        "age_max": 18,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Refundable depending on cancellation date",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Airport Drop-off Fee",
+        "variant_ref": "10-month",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 160.0,
+        "age_min": 0,
+        "age_max": 18,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Refundable depending on cancellation date",
+        "course_id": null
+      },
+      {
+        "category": "Supplemento",
+        "name_ref": "Special Dietary Plan Monthly Add-on",
+        "variant_ref": "10-month",
+        "frequency": "Mensile",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 300.0,
+        "age_min": 0,
+        "age_max": 18,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Optional",
+        "course_id": null
+      },
+      {
+        "category": "Accommodation",
+        "name_ref": "Daily Homestay Fee",
+        "variant_ref": "Extra",
+        "frequency": "Giornaliero",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 48.0,
+        "age_min": 0,
+        "age_max": 18,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Additional fee per day",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Placement Fee",
+        "variant_ref": "5-month",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 580.0,
+        "age_min": 0,
+        "age_max": 18,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Non-refundable",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Custodian Fee",
+        "variant_ref": "5-month",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 550.0,
+        "age_min": 0,
+        "age_max": 18,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Non-refundable",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Semi-annual Administrative Fee",
+        "variant_ref": "5-month",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 238.0,
+        "age_min": 0,
+        "age_max": 18,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Refundable prior to arrival",
+        "course_id": null
+      },
+      {
+        "category": "Accommodation",
+        "name_ref": "Homestay Fee",
+        "variant_ref": "5-month",
+        "accommodation_details": {
+          "room_type": null,
+          "bathroom_type": null,
+          "board_basis": null
+        },
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 7375.0,
+        "age_min": 0,
+        "age_max": 18,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Refundable, except for first month fee",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Airport Pick-up Fee",
+        "variant_ref": "5-month",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 160.0,
+        "age_min": 0,
+        "age_max": 18,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Refundable depending on cancellation date",
+        "course_id": null
+      },
+      {
+        "category": "Fee",
+        "name_ref": "Airport Drop-off Fee",
+        "variant_ref": "5-month",
+        "frequency": "Una Tantum",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 160.0,
+        "age_min": 0,
+        "age_max": 18,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Refundable depending on cancellation date",
+        "course_id": null
+      },
+      {
+        "category": "Supplemento",
+        "name_ref": "Special Dietary Plan Monthly Add-on",
+        "variant_ref": "5-month",
+        "frequency": "Mensile",
+        "week_range_start": null,
+        "week_range_end": null,
+        "gross_amount": 300.0,
+        "age_min": 0,
+        "age_max": 18,
+        "commission_percent": null,
+        "seasonality_notes": null,
+        "notes": "Optional",
+        "course_id": null
+      }
+    ]
+  }
+]
