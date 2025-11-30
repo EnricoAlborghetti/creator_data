@@ -1,0 +1,5 @@
+openai>=1.50.0
+pydantic
+Pillow
+requests
+pdf2image
